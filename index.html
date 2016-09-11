@@ -1,0 +1,134 @@
+<!-- proyecto: Liga de futbol
+cliente: Promarketing
+version developed 0.0.1
+fecha de compilacion 16 de enero de 2016
+programacion: victor omar muñoz bermejo
+
+
+detecsa consultores sa de cv copy rigth @ detecsa consultores sa de cv 2016-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<!-- titulo de la pestaña -->
+	<title>Liga de Futbol</title>
+<!-- scripots y csss -->
+	<link href="http://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css" />
+	<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.slidertron-1.0.js"></script>
+</head>
+<!-- CUERPO DE LA PAGINA -->
+<body>
+<!-- div principal de toda la pagina -->
+<div id="wrapper">
+	<!-- cabecera de la pagina -->
+	<div id="header-wrapper">
+	<div id="logo">
+	<div id="header">
+		<table>
+			<th><img src="images/LU1.png" width="100" height="100"></th>
+			<th>	<h1><a href="index.html">Liga de Futbol Ultravision 2016</a></h1>
+				<p>Design by <a href="http://detecsa-consultores.com" rel="nofollow">DETECSA</a></p>
+				</th>
+		</table>
+	</div>
+	</div>
+</div>
+<!-- Se acaba la cabecera de la pagina -->
+	<!-- <meta http-equiv="acción" content="segundos"; url="url destino" /> -->
+<!-- menu de las opciones -->
+<div id="menu">
+	<ul>
+		<li><a href="index.html">Inicio</a></li>
+		<li><a href="equipos.php">Equipos</a></li>
+		<li><a href="campos.php">Campos</a></li>
+		<li><a href="calendario.php">Calendario</a></li>
+		<li><a href="resultados.php">Resultados</a></li>
+
+	</ul>
+</div>
+<!-- fin del menu -->
+
+	<!-- slider de fotos -->
+	<div id="page">
+		<div id="content">
+			<div id="slider">
+				<div class="viewer">
+					<div class="reel">
+					<!-- fotos del slider -->
+						<div class="slide"> <img src="images/pics01.jpg" width="590" height="300" alt="" /> </div>
+						<div class="slide"> <img src="images/pics02.jpg" width="590" height="300" alt="" /> </div>
+						<div class="slide"> <img src="images/pics03.jpg" width="590" height="300" alt="" /> </div>
+					<!-- fin del grupo de fotos para el slider -->
+					</div>
+				</div>
+			</div>
+			<!-- script del carrousel de fotos de la portada -->
+			<script type="text/javascript">
+				$('#slider').slidertron({
+					viewerSelector: '.viewer',
+					reelSelector: '.viewer .reel',
+					slidesSelector: '.viewer .reel .slide',
+					advanceDelay: 3000,
+					speed: 'slow'
+				});
+			</script>
+		<!-- fin de slider -->
+
+		<!-- nota principal que aparece en la portada -->
+			<!-- titulo de la nota principal -->
+			<div class="post">
+				<h2 class="title"><a href="#">Bienvenido a la LIGA DE FUTBOL ULTRAVISION 2016</a></h2>
+				<p class="meta">Publicado por: <a href="#">ALguien</a> el 16 de enero de 2016
+					&nbsp;&bull;&nbsp; <a href="#" class="comments">Commentarios (64)</a> &nbsp;&bull;&nbsp; <a href="#" class="permalink">Ver articulo</a></p>
+			<!-- cuerpo de la nota principal -->
+				<div class="entry">
+					<p>Este es <strong>un articulo de la liga</strong>, a free, fully standards-compliant CSS template designed by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.  The picture in this template is from <a href="http://fotogrph.com/"><strong>Fotogrph</strong></a>.The gallery slider used in this template is powered by <strong><a href="http://n33.co/">Slidertron</a></strong>. This free template is released under the <a href="http://templated.co/license">Creative Commons Attribution</a> license, so you’re pretty much free to do whatever you want with it (even use it commercially) provided you give us credit for it. Have fun :)</p>
+				</div>
+			</div> <!-- fin de la nota principal -->
+		</div> <!-- fin del container -->
+
+		
+		<!-- inicia la parte izquierda -->
+		<div id="sidebar-bg">
+			<div id="sidebar">
+				<ul>
+					<li>
+						<h2>Bienvenidos</h2>
+						<p><a href="sesion.php" class="btn btn-primary">Acceso</a></p>
+						
+					</li>
+					<li>
+						<h2>Opciones</h2>
+						<ul>
+							<li><a href="equipos.php">Equipos</a></li>
+							<li><a href="campos.php">Campos</a></li>
+							<li><a href="calendario.php">Calendario</a></li>
+							<li><a href="resultados.php">Resultados</a></li>
+						</ul>
+					</li>
+					<li>
+						<h2>Arbitros</h2>
+						<ul>
+							<li><a href="arbitros.php">Arbitros </a></li>	
+						</ul>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+		<!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	<!-- end #page -->
+</div>
+<!-- pie de pagina -->
+<div id="footer">
+	<p>2016. All rights reserved. Design by <a href="http://detecsa-consultores.com" rel="nofollow">DETECSA</a>.</p>
+</div>
+<!-- FIN DEL PIE -->
+</body>
+</html>
